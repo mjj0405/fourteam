@@ -3,15 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telphone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <header></header>
-    <section></section>
+    <div class="wrap">
+        <header>
+            <span class="one">北京<i class="icon iconfont icon-xiangxia"></i></span> <span class="two">  <i class="icon iconfont icon-fangdajing"></i><input type="text" placeholder="输入商家/品类/商圈"> </span><span class="three"> <i class="icon iconfont icon-wode"></i> <b class="my">我的</b></span>
+        </header>
+        <section>
+            <div class="big">
+                <img src="./img/download_banner.png" alt="">
+            </div>
+        </section>
+    </div>
 
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px';
+    </script>
 </body>
 
 </html>
