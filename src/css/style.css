@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+section {
+  margin-top: 20px;
+  width: 100%;
+}
+
+section .one {
+  width: 97%;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 3%;
+}
+
+section dl {
+  width: 97%;
+  border-top: 1px solid #f3f1ed;
+  margin-left: 3%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+section dl dt img {
+  width: 130%;
+  height: auto;
+}
+
+section dl dd {
+  margin-left: 8%;
+}
+
+section dl dd p:nth-child(1) {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+section dl dd p:nth-child(2) {
+  font-size: 14px;
+}
+
+section dl dd p:nth-child(3) {
+  margin-top: 10px;
+}
+
+section dl dd p span {
+  color: #33ccbd;
+  font-size: 20px;
+}
+
+section dl dd label {
+  position: absolute;
+  top: 60%;
+  right: 3%;
+}
