@@ -173,11 +173,15 @@ code {
 }
 
 .nav-capsule .spec .navImg {
-  width: 100%;
+  width: 71%;
 }
 
 .nav-capsule .spec .navTit {
   width: 100%;
   line-height: 28px;
   color: #666666;
+}
+
+.swiper-pagination {
+  margin-left: 50%;
 }

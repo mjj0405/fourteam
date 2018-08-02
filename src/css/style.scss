@@ -13,7 +13,7 @@
 		flex-basis:20%;
         text-align: center;
 		.navImg{
-			width:100%;
+			width:71%;
 		}
 		.navTit{
 			width:100%;
@@ -21,4 +21,7 @@
 			color:rgb(102, 102, 102);
 		}
     }
+}
+.swiper-pagination{
+	margin-left: 50%;
 }
