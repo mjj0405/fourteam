@@ -46,6 +46,7 @@ section dl dd p:nth-child(2) {
 
 section dl dd p:nth-child(3) {
   margin-top: 10px;
+  font-size: 14px;
 }
 
 section dl dd p span {
@@ -54,7 +55,34 @@ section dl dd p span {
 }
 
 section dl dd label {
+  font-size: 14px;
   position: absolute;
   top: 60%;
   right: 3%;
+}
+
+section .nav-capsule {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .nav-capsule .spec {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+section .nav-capsule .spec .navImg {
+  width: 71%;
+}
+
+section .nav-capsule .spec .navTit {
+  width: 100%;
+  line-height: 28px;
+  color: #666666;
+}
+
+section .swiper-pagination {
+  margin-left: 50%;
 }

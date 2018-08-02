@@ -3,44 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telphone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header></header>
-    <section>
-        <p class="one">猜你喜欢</p>
-        <dl>
-            <dt><img src="images/1_03.png" alt=""></dt>
-            <dd>
-                <p>全聚德</p>
-                <p>[东城区]精品烤鸭3-4人餐一份</p>
-                <p><span>398元</span>&nbsp;&nbsp;门市价498元</p>
-                <label>已售1901</label>
-            </dd>
-        </dl>
-        <dl>
-            <dt><img src="images/2_03.png" alt=""></dt>
-            <dd>
-                <p>奶茶嫁给粉</p>
-                <p>[5店通用]单人套餐,提供免费WIFI</p>
-                <p><span>25元</span>&nbsp;&nbsp;门市价32元</p>
-                <label>已售2275</label>
-            </dd>
-        </dl>
-        <dl>
-            <dt><img src="images/3_03.png" alt=""></dt>
-            <dd>
-                <p>吉野家</p>
-                <p>[140店通用]卤肉饭+中杯汽水/紫菜蛋花汤一份</p>
-                <p><span>14元</span>&nbsp;&nbsp;门市价22元</p>
-                <label>已售45741</label>
-            </dd>
-        </dl>
-    </section>
+    <div class="wrap">
+        <header>
+            <span class="one">北京<i class="icon iconfont icon-xiangxia"></i></span> <span class="two">  <i class="icon iconfont icon-fangdajing"></i><input type="text" placeholder="输入商家/品类/商圈"> </span><span class="three"> <i class="icon iconfont icon-wode"></i> <b class="my">我的</b></span>
+        </header>
+        <section>
+            <div class="big">
+                <img src="./img/download_banner.png" alt="">
+            </div>
+            <p class="one">猜你喜欢</p>
+            <dl>
+                <dt><img src="images/1_03.png" alt=""></dt>
+                <dd>
+                    <p>全聚德</p>
+                    <p>[东城区]精品烤鸭3-4人餐一份</p>
+                    <p><span>398元</span>&nbsp;&nbsp;门市价498元</p>
+                    <label>已售1901</label>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="images/2_03.png" alt=""></dt>
+                <dd>
+                    <p>奶茶嫁给粉</p>
+                    <p>[5店通用]单人套餐,提供免费WIFI</p>
+                    <p><span>25元</span>&nbsp;&nbsp;门市价32元</p>
+                    <label>已售2275</label>
+                </dd>
+            </dl>
+            <dl>
+                <dt><img src="images/3_03.png" alt=""></dt>
+                <dd>
+                    <p>吉野家</p>
+                    <p>[140店通用]卤肉饭+中杯汽水/紫菜蛋花汤一份</p>
+                    <p><span>14元</span>&nbsp;&nbsp;门市价22元</p>
+                    <label>已售45741</label>
+                </dd>
+            </dl>
+        </section>
+    </div>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px';
+    </script>
 </body>
 
 </html>
