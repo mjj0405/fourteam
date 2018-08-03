@@ -9,7 +9,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./fonts/iconfont.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.scss">
+
+    <script src="js/swiper.min.js"></script>
 </head>
 
 <body>
@@ -20,6 +24,94 @@
         <section>
             <div class="big">
                 <img src="./img/download_banner.png" alt="">
+            </div>
+            <div class="dl swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <dl>
+                            <dt><img src="img/1.jpg" alt=""></dt>
+                            <dd>美食</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/2.jpg" alt=""></dt>
+                            <dd>猫眼电影</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/3.jpg" alt=""></dt>
+                            <dd>酒店</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/4.jpg" alt=""></dt>
+                            <dd>休闲娱乐</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/5.jpg" alt=""></dt>
+                            <dd>外卖</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/6.jpg" alt=""></dt>
+                            <dd>KTV</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/7.jpg" alt=""></dt>
+                            <dd>周边游</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/8.jpg" alt=""></dt>
+                            <dd>丽人</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/9.jpg" alt=""></dt>
+                            <dd>小吃快餐</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/10.jpg" alt=""></dt>
+                            <dd>机票/火车</dd>
+                        </dl>
+                    </li>
+                    <li class="swiper-slide">
+                        <dl>
+                            <dt><img src="img/1.jpg" alt=""></dt>
+                            <dd>美食</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/2.jpg" alt=""></dt>
+                            <dd>猫眼电影</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/3.jpg" alt=""></dt>
+                            <dd>酒店</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/4.jpg" alt=""></dt>
+                            <dd>休闲娱乐</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/5.jpg" alt=""></dt>
+                            <dd>外卖</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/6.jpg" alt=""></dt>
+                            <dd>KTV</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/7.jpg" alt=""></dt>
+                            <dd>周边游</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/8.jpg" alt=""></dt>
+                            <dd>丽人</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/9.jpg" alt=""></dt>
+                            <dd>小吃快餐</dd>
+                        </dl>
+                        <dl>
+                            <dt><img src="img/10.jpg" alt=""></dt>
+                            <dd>机票/火车</dd>
+                        </dl>
+                    </li>
+                </ul>
             </div>
             <p class="one">猜你喜欢</p>
             <dl>
@@ -52,6 +144,10 @@
         </section>
     </div>
     <script>
+        new Swiper('.dl', {
+            loop: true,
+            autoplay: true
+        })
         document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px';
     </script>
 </body>

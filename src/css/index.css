@@ -85,7 +85,42 @@ body {
   height: 3rem;
 }
 
-.wrap section .big img {
+.wrap section .big > img {
   display: block;
   width: 100%;
+}
+
+.dl {
+  width: 100%;
+}
+
+.dl ul {
+  width: 100%;
+}
+
+.dl ul li {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dl ul li dl {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.dl ul li dl dt {
+  text-align: center;
+}
+
+.dl ul li dl dt img {
+  width: 45px;
+  height: 45px;
+}
+
+.dl ul li dl dd {
+  text-align: center;
+  font-size: 12px;
 }
