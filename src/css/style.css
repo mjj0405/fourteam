@@ -4,9 +4,51 @@
   list-style-type: none;
 }
 
+header {
+  position: fixed;
+  top: 0;
+}
+
 section {
-  margin-top: 20px;
+  margin-top: 60px;
   width: 100%;
+}
+
+section .swiper-container {
+  width: 100%;
+}
+
+section .seiper-wrapper {
+  width: 100%;
+}
+
+section .swiper-pagination {
+  margin-left: 48%;
+}
+
+section .nav-capsule {
+  width: 100%;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+section .nav-capsule .spec {
+  flex-basis: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .nav-capsule .spec .navImg {
+  width: 100%;
+}
+
+section .nav-capsule .spec .navTit {
+  width: 100%;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
 }
 
 section .one {
