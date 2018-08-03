@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dl {
+    width: 100%;
+    ul {
+        width: 100%;
+        li {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            dl {
+                width: 20%;
+                padding-top: 5px;
+                dt {
+                    text-align: center;
+                    img {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+                dd {
+                    text-align: center;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
